@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Тексты">
+      <UniqueIdentifier>{2b5e9ab3-25f5-440e-bdbc-b20928534924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Результаты">
+      <UniqueIdentifier>{43697dfc-332a-4245-9a3d-a954210a4161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Анализы">
+      <UniqueIdentifier>{fca90177-fb55-4662-9f4c-fcdbbec2c35e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Texts\Text_0.txt">
+      <Filter>Тексты</Filter>
+    </Text>
+    <Text Include="Texts\Text_1.txt">
+      <Filter>Тексты</Filter>
+    </Text>
+    <Text Include="Texts\Text_2.txt">
+      <Filter>Тексты</Filter>
+    </Text>
+    <Text Include="Texts\Text_3.txt">
+      <Filter>Тексты</Filter>
+    </Text>
+    <Text Include="Texts\Text_4.txt">
+      <Filter>Тексты</Filter>
+    </Text>
+    <Text Include="Texts\Text_5.txt">
+      <Filter>Тексты</Filter>
+    </Text>
+    <Text Include="Texts\Text_6.txt">
+      <Filter>Тексты</Filter>
+    </Text>
+    <Text Include="Texts\Text_7.txt">
+      <Filter>Тексты</Filter>
+    </Text>
+    <Text Include="Texts\Text_8.txt">
+      <Filter>Тексты</Filter>
+    </Text>
+    <Text Include="Texts\Text_9.txt">
+      <Filter>Тексты</Filter>
+    </Text>
+    <Text Include="Results\Result_Text_0.txt">
+      <Filter>Результаты</Filter>
+    </Text>
+    <Text Include="Results\Result_Text_1.txt">
+      <Filter>Результаты</Filter>
+    </Text>
+    <Text Include="Results\Result_Text_2.txt">
+      <Filter>Результаты</Filter>
+    </Text>
+    <Text Include="Analyzes\Analyze_Text_0.txt">
+      <Filter>Анализы</Filter>
+    </Text>
+    <Text Include="Analyzes\Analyze_Text_1.txt">
+      <Filter>Анализы</Filter>
+    </Text>
+    <Text Include="Analyzes\Analyze_Text_2.txt">
+      <Filter>Анализы</Filter>
+    </Text>
+    <Text Include="Results\Result_Text_3.txt">
+      <Filter>Результаты</Filter>
+    </Text>
+    <Text Include="Analyzes\Analyze_Text_3.txt">
+      <Filter>Анализы</Filter>
+    </Text>
+    <Text Include="Analyzes\Analyze_Text_4.txt">
+      <Filter>Анализы</Filter>
+    </Text>
+    <Text Include="Results\Result_Text_4.txt">
+      <Filter>Результаты</Filter>
+    </Text>
+    <Text Include="Analyzes\Analyze_Text_5.txt">
+      <Filter>Анализы</Filter>
+    </Text>
+    <Text Include="Analyzes\Analyze_Text_6.txt">
+      <Filter>Анализы</Filter>
+    </Text>
+    <Text Include="Results\Result_Text_5.txt">
+      <Filter>Результаты</Filter>
+    </Text>
+    <Text Include="Results\Result_Text_6.txt">
+      <Filter>Результаты</Filter>
+    </Text>
+    <Text Include="Analyzes\Analyze_Text_7.txt">
+      <Filter>Анализы</Filter>
+    </Text>
+    <Text Include="Analyzes\Analyze_Text_8.txt">
+      <Filter>Анализы</Filter>
+    </Text>
+    <Text Include="Analyzes\Analyze_Text_9.txt">
+      <Filter>Анализы</Filter>
+    </Text>
+    <Text Include="Results\Result_Text_7.txt">
+      <Filter>Результаты</Filter>
+    </Text>
+    <Text Include="Results\Result_Text_8.txt">
+      <Filter>Результаты</Filter>
+    </Text>
+    <Text Include="Results\Result_Text_9.txt">
+      <Filter>Результаты</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Исходный код.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Edu_Practice_Func.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Edu_Practice_Func.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
