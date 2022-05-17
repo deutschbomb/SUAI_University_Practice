@@ -39,15 +39,4 @@ void main() {
 	write_result(text_num, Words, WordsOnLetter_Count);
 	write_analyze(text_num, main_text, words_count, sort_time, WordsOnLetter_Count);
 
-	cout << " Вариант 13: кириллица, по алфавиту, по возрастанию, игнорировать числа,\n сортировка пузырьком" << endl;
-	cout << " Количество слов: " << words_count << endl;
-	cout << " Время сортировки: " << sort_time << " сек" << endl;
-	cout << " Статистика (количество слов на каждую букву алфавита):" << endl;
-	for (int i = 0; i < 6; i++) {
-		cout << (char)(-32 + i) << " - " << WordsOnLetter_Count[i] << endl;
-	}
-	cout << (char)(-72) << " - " << WordsOnLetter_Count[6] << endl;
-	for (int i = 7; i < WordsOnLetter_Count.size(); i++) {
-		cout << (char)(-33 + i) << " - " << WordsOnLetter_Count[i] << endl;
-	}
 }
