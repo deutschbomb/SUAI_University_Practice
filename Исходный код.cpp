@@ -22,7 +22,7 @@
 
 using namespace std;
 
-void main() {
+int main() {
 	SetConsoleOutputCP(1251);	// поддержка кириллицы в консоли (вывод)
 	SetConsoleCP(1251);			// поддержка кириллицы в консоли (ввод)
 
@@ -31,7 +31,10 @@ void main() {
 	vector<int> WordsOnLetter_Count(33);
 			
 	cout << "Введите номер текста (от 0 до 9): "; cin >> text_num;
-	read_text(text_num, main_text);
+	if (read_text(text_num, main_text) == 0) {
+		cout << "Не удалось открыть файл с выбранным текстом. Проверьте входной файл." << endl;
+		return 0;
+	}
 	vector <string> Words = separate_words(main_text);
 	bubble_sort(Words, sort_time);
 	int words_count = Words.size();

@@ -9,7 +9,7 @@
 
 using namespace std;
 
-void read_text(int __text_num, string& main_text) {
+int read_text(int __text_num, string& main_text) {
 	fstream fin; // переменная для работы с файлом
 	switch (__text_num) // конструкция switch/case для открытия выбранного текста
 	{
@@ -47,6 +47,10 @@ void read_text(int __text_num, string& main_text) {
 		cout << " Такого текста нет." << endl;
 		break;
 	}
+	if (!fin.is_open()) {
+		cout << "Ошибка! Файл не существует." << endl;
+		return 0;
+	} // проверка, открылся ли необходимый файл
 	while (!fin.eof()) {
 		main_text += fin.get(); // посимвольное чтение открытого текста
 	}
