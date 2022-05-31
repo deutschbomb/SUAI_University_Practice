@@ -164,7 +164,7 @@ void write_analyze(int __text_num, string main_text, int words_count, int sort_t
 		<< main_text << endl << endl
 		<< "Вариант 13: кириллица, по алфавиту, по возрастанию, игнорировать числа, сортировка пузырьком" << endl
 		<< "Количество слов: " << words_count << endl
-		<< "Время сортировки: " << sort_time << " сек" << endl
+		<< "Время сортировки: " << sort_time << " мс" << endl
 		<< "Статистика (количество слов на каждую букву алфавита):" << endl;
 	for (int i = 0; i < WordsOnLetter_Count.size(); i++) { // цикл прохода по массиву с количеством слов, начинающихся на определённую букву
 		fout << (char)first_sym << " - " << WordsOnLetter_Count[i] << endl; /* вывод буквы алфавита и соответствующего количества слов,
@@ -219,7 +219,7 @@ void bubble_sort(vector <string>& Words, int& sort_time) {
 		}
 	} while (Flag == true); // выполнять цикл пока флаг не будет равен значению "True"
 	int stop_sort = clock(); // время окончания сортировки
-	sort_time = (stop_sort - start_sort) / 1000; // вычисление времени сортировки в миллисекундах
+	sort_time = (stop_sort - start_sort)/* / 1000*/; // вычисление времени сортировки в миллисекундах
 }	// функция сортировки Пузырьком
 
 char __tolower(char SYM) {
