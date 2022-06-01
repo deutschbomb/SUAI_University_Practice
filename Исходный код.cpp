@@ -18,7 +18,6 @@
 #include <vector>
 #include <ctime>
 
-
 #include "Edu_Practice_Func.h" // подключение файла с собственными функциями
 
 using namespace std;
