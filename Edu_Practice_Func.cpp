@@ -206,9 +206,9 @@ vector <string> separate_words(string S) {
 
 void bubble_sort(vector <string>& Words, int& sort_time) {
 	int i = -1;
-	bool Flag;
+	bool Flag = true;
 	int start_sort = clock(); // время начала сортировки
-	do {
+	while (Flag == true) {	// выполнять цикл пока флаг не будет равен значению "True"
 		i++; // увеличение итератора
 		Flag = false; // присвоение флагу значения "False"
 		for (int j = Words.size() - 1; j > i; j--) { // цикл прохода по массиву несортированных слов
@@ -217,7 +217,7 @@ void bubble_sort(vector <string>& Words, int& sort_time) {
 				Flag = true;					// и присвоить флагу значение "True"
 			}
 		}
-	} while (Flag == true); // выполнять цикл пока флаг не будет равен значению "True"
+	}
 	int stop_sort = clock(); // время окончания сортировки
 	sort_time = (stop_sort - start_sort)/* / 1000*/; // вычисление времени сортировки в миллисекундах
 }	// функция сортировки Пузырьком
